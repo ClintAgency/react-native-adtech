@@ -1,4 +1,4 @@
-package com.app.adtech;
+package com.clintagency.adtech;
 
 import android.app.Activity;
 

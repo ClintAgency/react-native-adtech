@@ -32,5 +32,6 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
+    implementation(name:'android-ad-sdk', ext:'aar')
 }
   

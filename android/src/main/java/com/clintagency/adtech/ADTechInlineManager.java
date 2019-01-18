@@ -79,7 +79,7 @@ class ADTechInlineView extends LinearLayout {
         }
     };
 
-    private void createAd(ReadableMap options) {
+    private void createAd(final ReadableMap options) {
         LayoutParams lp;
         AdSize size;
 
