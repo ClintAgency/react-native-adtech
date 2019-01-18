@@ -5,7 +5,23 @@
 
 `$ npm install react-native-adtech --save`
 
-### Mostly automatic installation
+or
+
+`$ yarn add react-native-adtech`
+
+## Installation
+
+You can use npm or Yarn to install the latest beta version:
+
+**npm:**
+
+    npm i --save react-native-adtech
+
+**Yarn:**
+
+    yarn add react-native-adtech
+
+In order to use this library, you have to link it to your project first. There's excellent documentation on how to do this in the [React Native Docs](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content).
 
 `$ react-native link react-native-adtech`
 
@@ -34,20 +50,70 @@
       compile project(':react-native-adtech')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNAdTech.sln` in `node_modules/react-native-adtech/windows/RNAdTech.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Ad.Tech.RNAdTech;` to the usings at the top of the file
-  - Add `new RNAdTechPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
-```javascript
-import RNAdTech from 'react-native-adtech';
 
-// TODO: What to do with the module?
-RNAdTech;
+### Inline Ad
+
+```jsx
+import 
+- `h`:nfrom 'react-native-adtec
+<ADTechInline
+	options={{
+	identifier: placementId,
+	placementId,
+	size,
+	}}
+/>
 ```
-  
+
+#### Properties
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>options</code></td>
+      <td>An object of InlineAd Options</td>
+    </tr>
+  </tbody>
+</table>
+
+
+##### options
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>identifier</code></td>
+      <td>for reuse cell. With this identifier, if an InlineAd is recreated, no impression is sent to statistics</td>
+    </tr>
+    <tr>
+      <td><code>placementId</code></td>
+      <td>ADTech placement id</td>
+    </tr>
+    <tr>
+      <td><code>size</code></td>
+      <td>
+**size identifier:**
+
+  - `0`: Banner (350x50)
+  - `1`: Large Banner (320x100)
+  - `2`: Medium Rectangle (300x250)  
+  - `3`: Full Banner (468x60)
+  - `4`: Leaderboard (728x90)
+
+      </td>
+    </tr>
+  </tbody>
+</table>
