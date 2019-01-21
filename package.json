@@ -1,16 +1,30 @@
 {
   "name": "react-native-adtech",
   "version": "1.0.2",
-  "description": "",
+  "description": "React native onemobile SDK",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClintAgency/react-native-adtech.git"
+  },
+  "homepage": "https://github.com/ClintAgency/react-native-adtech#readme",
+  "bugs": { 
+    "url" : "https://github.com/ClintAgency/react-native-adtech/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-native",
-    "adtech"
+    "adtech",
+    "aol",
+    "Millennial Media",
+    "iOS",
+    "android",
+    "onemobile",
+    "MMAd"
   ],
-  "author": "",
+  "author": "a",
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
