@@ -1,7 +1,7 @@
 {
   "name": "react-native-adtech",
   "version": "1.0.2",
-  "description": "React native onemobile SDK",
+  "description": "Onemobile (ADTech) Android and iOS SDKs wrapper for react native",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -24,8 +24,8 @@
     "onemobile",
     "MMAd"
   ],
-  "author": "a",
-  "license": "",
+  "author": "Clint",
+  "license": "ISC",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
