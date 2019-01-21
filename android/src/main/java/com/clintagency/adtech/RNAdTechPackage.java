@@ -18,7 +18,7 @@ public class RNAdTechPackage implements ReactPackage {
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new ADTechManager(reactContext));
+        modules.add(new RNAdTech(reactContext));
 
         return modules;
     }

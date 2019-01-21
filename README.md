@@ -47,7 +47,7 @@ In order to use this library, you have to link it to your project first. There's
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-adtech')
+      implementation project(':react-native-adtech')
   	```
 
 ## Usage
@@ -55,18 +55,18 @@ In order to use this library, you have to link it to your project first. There's
 ### Inline Ad
 
 ```jsx
-import 
-- `h`:nfrom 'react-native-adtec
+import { ADTechInline } from 'react-native-adtech';
+
 <ADTechInline
-	options={{
-	identifier: placementId,
-	placementId,
-	size,
-	}}
+  options={{
+    identifier: 'identifier',
+    placementId: '123456',
+    size: 0,
+  }}
 />
 ```
 
-#### Properties
+#### Props
 
 <table>
   <thead>
@@ -105,7 +105,7 @@ import
     <tr>
       <td><code>size</code></td>
       <td>
-**size identifier:**
+size identifier:
 
   - `0`: Banner (350x50)
   - `1`: Large Banner (320x100)
@@ -117,3 +117,31 @@ import
     </tr>
   </tbody>
 </table>
+
+### Interstitial
+
+```jsx
+import RNAdTech from 'react-native-adtech';
+
+RNAdTech.hideInterstitial();
+RNAdTech.showInterstitial(placementId);
+```
+
+### GDPR
+
+```jsx
+import { ConsentString } from 'consent-string';
+import RNAdTech from 'react-native-adtech';
+import vendorList from 'path/to/vendorList.json';
+
+const consentData = new ConsentString();
+
+consentData.setGlobalVendorList(vendorList);
+consentData.setCmpId(1);
+consentData.setCmpVersion(1);
+consentData.setConsentScreen(1);
+consentData.setConsentLanguage('fr');
+
+RNAdTech.setGDPR(true, consentData.getConsentString());
+```
+

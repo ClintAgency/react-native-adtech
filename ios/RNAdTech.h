@@ -1,11 +1,10 @@
+#import "React/RCTViewManager.h"
+#import <MMAdSDK/MMAdSDK.h>
 
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
-#else
-#import <React/RCTBridgeModule.h>
-#endif
+@interface RNAdTech : RCTViewManager <MMInterstitialDelegate>
 
-@interface RNAdTech : NSObject <RCTBridgeModule>
+@property (strong, nonatomic) MMInterstitialAd *interstitialAd;
+
++(void)initializeWithSiteId:(NSString *)siteId;
 
 @end
-  

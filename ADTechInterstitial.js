@@ -5,9 +5,9 @@ import { requireNativeComponent, View } from 'react-native';
 
 class ADTechInterstitialView extends React.PureComponent {
   static propTypes = {
-    style: PropTypes.object,
     onSizeChange: PropTypes.func,
     placementId: PropTypes.string.isRequired,
+    style: PropTypes.object,
   };
 
   constructor(props) {

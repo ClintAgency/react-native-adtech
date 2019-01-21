@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A162F89421F5B69300AC76AD /* ADTechInterstitialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A162F88A21F5B69200AC76AD /* ADTechInterstitialManager.m */; };
+		A162F89521F5B69300AC76AD /* ADTechInterstitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = A162F88E21F5B69300AC76AD /* ADTechInterstitialView.m */; };
+		A162F89621F5B69300AC76AD /* ADTechInlineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A162F88F21F5B69300AC76AD /* ADTechInlineManager.m */; };
+		A162F89721F5B69300AC76AD /* ADTechInlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A162F89121F5B69300AC76AD /* ADTechInlineView.m */; };
+		A162F89821F5B69300AC76AD /* ADTechConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A162F89321F5B69300AC76AD /* ADTechConfig.m */; };
+		A16CC59921F5BDEA00732F04 /* MMAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16CC59821F5BDEA00732F04 /* MMAdSDK.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNAdTech.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNAdTech.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +30,33 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNAdTech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAdTech.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A162F86821F5B43100AC76AD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A162F86A21F5B43800AC76AD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A162F86C21F5B43E00AC76AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A162F86E21F5B44500AC76AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A162F87021F5B45400AC76AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A162F87221F5B45A00AC76AD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A162F87421F5B45F00AC76AD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A162F87621F5B46800AC76AD /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		A162F87721F5B46800AC76AD /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A162F87A21F5B46F00AC76AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A162F87C21F5B47800AC76AD /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		A162F87E21F5B48000AC76AD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A162F88021F5B48600AC76AD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A162F88221F5B48B00AC76AD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A162F88421F5B49000AC76AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A162F88621F5B49500AC76AD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A162F88A21F5B69200AC76AD /* ADTechInterstitialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTechInterstitialManager.m; sourceTree = "<group>"; };
+		A162F88B21F5B69200AC76AD /* ADTechInterstitialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTechInterstitialManager.h; sourceTree = "<group>"; };
+		A162F88C21F5B69200AC76AD /* ADTechInterstitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTechInterstitialView.h; sourceTree = "<group>"; };
+		A162F88D21F5B69300AC76AD /* ADTechInlineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTechInlineManager.h; sourceTree = "<group>"; };
+		A162F88E21F5B69300AC76AD /* ADTechInterstitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTechInterstitialView.m; sourceTree = "<group>"; };
+		A162F88F21F5B69300AC76AD /* ADTechInlineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTechInlineManager.m; sourceTree = "<group>"; };
+		A162F89021F5B69300AC76AD /* ADTechInlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTechInlineView.h; sourceTree = "<group>"; };
+		A162F89121F5B69300AC76AD /* ADTechInlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTechInlineView.m; sourceTree = "<group>"; };
+		A162F89221F5B69300AC76AD /* ADTechConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTechConfig.h; sourceTree = "<group>"; };
+		A162F89321F5B69300AC76AD /* ADTechConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTechConfig.m; sourceTree = "<group>"; };
+		A16CC59821F5BDEA00732F04 /* MMAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMAdSDK.framework; path = Frameworks/MMAdSDK.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNAdTech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdTech.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNAdTech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAdTech.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16CC59921F5BDEA00732F04 /* MMAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +86,43 @@
 			children = (
 				B3E7B5881CC2AC0600A0062D /* RNAdTech.h */,
 				B3E7B5891CC2AC0600A0062D /* RNAdTech.m */,
+				A162F89221F5B69300AC76AD /* ADTechConfig.h */,
+				A162F89321F5B69300AC76AD /* ADTechConfig.m */,
+				A162F88D21F5B69300AC76AD /* ADTechInlineManager.h */,
+				A162F88F21F5B69300AC76AD /* ADTechInlineManager.m */,
+				A162F89021F5B69300AC76AD /* ADTechInlineView.h */,
+				A162F89121F5B69300AC76AD /* ADTechInlineView.m */,
+				A162F88B21F5B69200AC76AD /* ADTechInterstitialManager.h */,
+				A162F88A21F5B69200AC76AD /* ADTechInterstitialManager.m */,
+				A162F88C21F5B69200AC76AD /* ADTechInterstitialView.h */,
+				A162F88E21F5B69300AC76AD /* ADTechInterstitialView.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				A162F86721F5B43100AC76AD /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		A162F86721F5B43100AC76AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A16CC59821F5BDEA00732F04 /* MMAdSDK.framework */,
+				A162F88621F5B49500AC76AD /* WebKit.framework */,
+				A162F88421F5B49000AC76AD /* UIKit.framework */,
+				A162F88221F5B48B00AC76AD /* SystemConfiguration.framework */,
+				A162F88021F5B48600AC76AD /* MessageUI.framework */,
+				A162F87E21F5B48000AC76AD /* MediaPlayer.framework */,
+				A162F87C21F5B47800AC76AD /* libxml2.tbd */,
+				A162F87A21F5B46F00AC76AD /* Foundation.framework */,
+				A162F87721F5B46800AC76AD /* EventKit.framework */,
+				A162F87621F5B46800AC76AD /* EventKitUI.framework */,
+				A162F87421F5B45F00AC76AD /* CoreMedia.framework */,
+				A162F87221F5B45A00AC76AD /* CoreTelephony.framework */,
+				A162F87021F5B45400AC76AD /* CoreLocation.framework */,
+				A162F86E21F5B44500AC76AD /* CoreGraphics.framework */,
+				A162F86C21F5B43E00AC76AD /* AVFoundation.framework */,
+				A162F86A21F5B43800AC76AD /* AudioToolbox.framework */,
+				A162F86821F5B43100AC76AD /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,7 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A162F89721F5B69300AC76AD /* ADTechInlineView.m in Sources */,
+				A162F89521F5B69300AC76AD /* ADTechInterstitialView.m in Sources */,
+				A162F89821F5B69300AC76AD /* ADTechConfig.m in Sources */,
+				A162F89421F5B69300AC76AD /* ADTechInterstitialManager.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNAdTech.m in Sources */,
+				A162F89621F5B69300AC76AD /* ADTechInlineManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,8 +277,14 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/**",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
@@ -219,6 +299,12 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/**",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
