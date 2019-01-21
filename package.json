@@ -1,6 +1,6 @@
 {
   "name": "react-native-adtech",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Onemobile (ADTech) Android and iOS SDKs wrapper for react native",
   "main": "index.js",
   "repository": {
@@ -8,8 +8,8 @@
     "url": "https://github.com/ClintAgency/react-native-adtech.git"
   },
   "homepage": "https://github.com/ClintAgency/react-native-adtech#readme",
-  "bugs": { 
-    "url" : "https://github.com/ClintAgency/react-native-adtech/issues"
+  "bugs": {
+    "url": "https://github.com/ClintAgency/react-native-adtech/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
