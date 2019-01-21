@@ -25,8 +25,13 @@ In order to use this library, you have to link it to your project first. There's
 
 `$ react-native link react-native-adtech`
 
-### Manual installation
+### Specifique installation installation
 
+#### iOS
+
+Add MMAdSDK to iOS project. [Download iOS SDK](http://docs.onemobilesdk.aol.com/ios-ad-sdk/index.html)
+
+### Manual installation
 
 #### iOS
 
